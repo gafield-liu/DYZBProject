@@ -1,13 +1,13 @@
 //
-//  DouYuAppUITestsLaunchTests.swift
-//  DouYuAppUITests
+//  DOuYUaPPUITestsLaunchTests.swift
+//  DOuYUaPPUITests
 //
-//  Created by 刘秋男 on 2021/9/29.
+//  Created by 刘秋男 on 2021/9/30.
 //
 
 import XCTest
 
-class DouYuAppUITestsLaunchTests: XCTestCase {
+class DOuYUaPPUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

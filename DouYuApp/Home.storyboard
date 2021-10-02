@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XdW-9s-hhW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="UNb-WU-7nq">
+            <objects>
+                <viewController id="wW0-n4-682" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FQe-7P-xsE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="rLg-Jw-vI3">
+                                <rect key="frame" x="32" y="-317" width="600" height="600"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <viewLayoutGuide key="safeArea" id="gQq-21-K9M"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qT7-G6-lQZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kAr-de-Qac"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ET9-wA-DFH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109" y="948"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="qWs-17-Pb9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XdW-9s-hhW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="tabHome" selectedImage="tabLivingHL" id="hAD-Gx-tUw"/>
+                    <toolbarItems/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO">
+                        <color key="tintColor" name="AccentColor"/>
+                    </simulatedNavigationBarMetrics>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OkY-uG-GkL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wW0-n4-682" kind="relationship" relationship="rootViewController" id="Gku-O0-fX2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0p-Tx-P9F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="238" y="948"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" name="AccentColor"/>
+    <resources>
+        <image name="tabHome" width="24" height="24"/>
+        <image name="tabLivingHL" width="24" height="24"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

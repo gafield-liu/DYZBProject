@@ -1,13 +1,13 @@
 //
-//  DouYuAppUITests.swift
-//  DouYuAppUITests
+//  DOuYUaPPUITests.swift
+//  DOuYUaPPUITests
 //
-//  Created by 刘秋男 on 2021/9/29.
+//  Created by 刘秋男 on 2021/9/30.
 //
 
 import XCTest
 
-class DouYuAppUITests: XCTestCase {
+class DOuYUaPPUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
